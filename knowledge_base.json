@@ -1,0 +1,61 @@
+[
+  {"question": "What is the minimum attendance required?", "answer": "Students must maintain a minimum of 75% attendance in each subject to be eligible to sit for exams."},
+  {"question": "What happens if my attendance is below 75%?", "answer": "If your attendance falls below 75%, you may be marked as detained and will need to apply for condonation through the Academic Office."},
+  {"question": "How can I check my attendance?", "answer": "You can check your attendance on the college ERP portal under the 'Attendance' tab."},
+  {"question": "Is attendance counted for online classes?", "answer": "Yes, attendance for online classes is recorded the same way as offline classes."},
+  {"question": "How do I apply for attendance condonation?", "answer": "Submit a condonation request form along with valid documents to the Academic Office within 7 days of the shortage notice."},
+
+  {"question": "What is the last date to pay semester fees?", "answer": "The last date to pay semester fees is usually the 15th of every semester start month. Check the fee portal for exact dates."},
+  {"question": "How can I pay my college fees online?", "answer": "You can pay fees online through the college ERP portal using debit card, credit card, or net banking."},
+  {"question": "Is there a late fee penalty?", "answer": "Yes, a late fee of Rs. 500 per week is charged if fees are paid after the due date."},
+  {"question": "Can I pay fees in installments?", "answer": "Yes, fee installment facility is available. Please contact the Accounts Office to apply."},
+  {"question": "How do I get a fee receipt?", "answer": "Fee receipts are automatically generated and can be downloaded from the ERP portal after payment."},
+
+  {"question": "When do exams start?", "answer": "Semester exams typically start in the last week of the semester. Check the academic calendar for exact dates."},
+  {"question": "How can I get my exam hall ticket?", "answer": "Hall tickets are released 1 week before exams and can be downloaded from the student portal."},
+  {"question": "What if I miss an exam due to illness?", "answer": "You can apply for a medical leave exemption and appear for a supplementary exam. Submit a medical certificate to the Exam Cell."},
+  {"question": "How are exam results published?", "answer": "Results are published on the college website and ERP portal within 3-4 weeks of the exam."},
+  {"question": "How can I apply for revaluation?", "answer": "Revaluation applications can be submitted online within 10 days of result declaration, along with the revaluation fee."},
+  {"question": "What is the passing marks criteria?", "answer": "Students need a minimum of 40% marks in each subject and 30% aggregate to pass."},
+
+  {"question": "What are the library timings?", "answer": "The library is open from 8:00 AM to 8:00 PM on all working days."},
+  {"question": "How many books can I borrow from the library?", "answer": "Students can borrow up to 3 books at a time for a period of 14 days."},
+  {"question": "What is the fine for late return of library books?", "answer": "A fine of Rs. 2 per day is charged for late return of library books."},
+  {"question": "How do I renew a library book?", "answer": "You can renew books online through the library portal or by visiting the library desk, provided no one else has requested it."},
+  {"question": "Is the library open on weekends?", "answer": "Yes, the library remains open on Saturdays from 9:00 AM to 5:00 PM. It is closed on Sundays."},
+
+  {"question": "What are the hostel fees?", "answer": "Hostel fees vary by room type and range from Rs. 1,50,000 to Rs. 1,70,000 per year. Contact the Hostel Office for exact details."},
+  {"question": "How do I apply for hostel accommodation?", "answer": "You can apply for hostel accommodation by filling out the hostel application form available on the college website."},
+  {"question": "What is the hostel curfew time?", "answer": "The hostel curfew time is 6:30 PM for every day of the week."},
+  {"question": "Is mess food included in hostel fees?", "answer": "Yes, mess charges are included in the hostel fee package."},
+  {"question": "Can I change my hostel room?", "answer": "Room change requests can be submitted to the Hostel Warden and are subject to availability."},
+
+  {"question": "When do placements start?", "answer": "Campus placements usually begin in the 7th semester, starting around August-September."},
+  {"question": "What is the eligibility criteria for placements?", "answer": "Students need a minimum CGPA of 6.0 and no active backlogs to be eligible for placements."},
+  {"question": "How do I register for placement drives?", "answer": "You can register for placement drives through the Placement Cell portal or by contacting the Training and Placement Officer."},
+  {"question": "Which companies visit for placements?", "answer": "Companies like TCS, Infosys, Wipro, Accenture, and various startups visit for campus placements. The list varies each year."},
+  {"question": "What is the average placement package?", "answer": "The average placement package is around Rs. 8-10 LPA, with the highest packages going up to Rs. 30-40 LPA."},
+
+  {"question": "How can I apply for a scholarship?", "answer": "Scholarship applications can be submitted online through the National Scholarship Portal or the college Scholarship Cell."},
+  {"question": "What scholarships are available?", "answer": "Merit scholarships, need-based scholarships, and government scholarships (like SC/ST/OBC schemes) are available."},
+  {"question": "What is the eligibility for merit scholarship?", "answer": "Students scoring above 85% in the previous semester are eligible for merit scholarships."},
+  {"question": "When is the scholarship application deadline?", "answer": "Scholarship applications usually close by the end of September. Check the Scholarship Cell notice board for exact dates."},
+  {"question": "How will I know if my scholarship is approved?", "answer": "You will receive a notification via email/SMS and can check the status on the scholarship portal."},
+
+  {"question": "When do college holidays start?", "answer": "Semester break holidays typically start after exams end, usually in December and May. Check the academic calendar for exact dates."},
+  {"question": "Is there a holiday list available?", "answer": "Yes, the official holiday list is published on the college website at the start of the academic year."},
+  {"question": "Are there holidays for festivals?", "answer": "Yes, holidays are given for major festivals like Diwali, Holi, Eid, and Christmas as per the academic calendar."},
+  {"question": "How many days of vacation do we get?", "answer": "Students generally get around 30-40 days of vacation between semesters, including summer and winter breaks."},
+
+  {"question": "Where can I find my class timetable?", "answer": "Your class timetable is available on the ERP portal under the 'Timetable' section."},
+  {"question": "How often does the timetable change?", "answer": "The timetable is generally fixed for a semester but may be updated occasionally due to faculty availability."},
+  {"question": "What time do classes start?", "answer": "Classes typically start at 9:00 AM and end at 4:00 PM, with a lunch break from 1:00 PM to 2:00 PM."},
+
+  {"question": "How can I contact my faculty advisor?", "answer": "You can contact your faculty advisor via email or during their office hours listed on the department notice board."},
+  {"question": "How do I find a professor's office hours?", "answer": "Office hours are listed on the department notice board and can also be found on the ERP portal under faculty details."},
+  {"question": "Who is the head of the department?", "answer": "Please check the department notice board or college website for the current Head of Department details."},
+
+  {"question": "How can I get a bonafide certificate?", "answer": "Bonafide certificates can be requested through the Academic Office by submitting an application form, usually processed within 2-3 working days."},
+  {"question": "How do I get a transcript?", "answer": "Transcripts can be requested from the Examination Cell by submitting a written request along with the required fee."},
+  {"question": "What is the process for semester registration?", "answer": "Semester registration is done online through the ERP portal at the start of every semester before the specified deadline."}
+]
