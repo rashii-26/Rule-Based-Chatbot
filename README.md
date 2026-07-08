@@ -62,35 +62,3 @@ No machine learning model, embeddings, or external API calls are used. The match
 ## Notes on the Matching Threshold
 
 The similarity threshold was set to 60 after testing several real and irrelevant queries. This value was chosen because it correctly matches genuine but short or casually phrased questions (for example, "placement package" or "library timing") while still rejecting completely unrelated questions (for example, "what's the weather today"). The `token_set_ratio` scorer was chosen over the default `WRatio` because it does not depend on word order and performed more reliably on both matching and non-matching test cases.
-
-## Viva Questions and Answers
-
-**Q1. What algorithm does RapidFuzz use for matching?**
-This project uses `fuzz.token_set_ratio`, which compares the sets of words in two strings regardless of order. This makes it effective for short or reordered questions, such as "package placement" matching "What is the average placement package?"
-
-**Q2. Why was fuzzy matching chosen instead of a real AI model?**
-Fuzzy matching is lightweight, fast, works offline, does not require training data or GPUs, and is easy to explain and reason about. This makes it well suited for a simple FAQ-based support system.
-
-**Q3. What is the similarity threshold, and why was 60 chosen?**
-The threshold is 60 out of 100. This value was selected through testing: real FAQ-style queries with typos or short phrasing scored between roughly 60 and 90, while unrelated queries scored well below 40. A threshold of 60 keeps a safe margin on both sides.
-
-**Q4. What happens if no good match is found?**
-The bot returns a polite fallback message directing the student to contact the Academic Office, rather than guessing or returning an incorrect answer.
-
-**Q5. How is the knowledge base stored?**
-In a JSON file (`knowledge_base.json`) as a list of question-answer pairs. JSON was chosen because it is human-readable, easy to edit, and does not require setting up a database.
-
-**Q6. How does Streamlit maintain chat history?**
-Through `st.session_state`, a Streamlit feature that persists data across reruns of the script, since Streamlit reruns the entire script on every user interaction.
-
-**Q7. Can this chatbot understand context or follow-up questions?**
-No. Each question is matched independently against the knowledge base. The chatbot has no memory of previous questions; it is a stateless matcher rather than a conversational AI.
-
-**Q8. How would you add a new FAQ?**
-By adding a new `{"question": ..., "answer": ...}` entry to `knowledge_base.json`. No code changes are required.
-
-**Q9. What does `process.extractOne()` do?**
-It is a RapidFuzz function that takes a query string and a list of choices, and returns the single best-matching choice along with its similarity score and index in the list.
-
-**Q10. Does this chatbot use any external API or internet connection?**
-No. Everything runs locally. The JSON file, matching logic, and user interface all work offline using only the installed Python libraries.
