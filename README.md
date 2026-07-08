@@ -1,4 +1,4 @@
-# AI Student Support Chatbot
+# Rule Based Student Support Chatbot
 
 A simple, rule-based chatbot built to handle common student queries related to attendance, fees, exams, library, hostel, placements, scholarships, holidays, timetable, and faculty. The chatbot uses fuzzy string matching to find the closest matching FAQ and does not rely on any AI model, external API, or internet connection.
 
